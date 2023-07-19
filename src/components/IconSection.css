@@ -1,0 +1,22 @@
+.section{
+    flex-direction: row;
+}
+@media screen and (max-width: 960px) {
+    .section{
+        flex-direction: column;
+
+    }
+  
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .section{
+        flex-direction: column;
+
+    }
+    .beschreibung{
+        font-size: 1px;
+    }
+}

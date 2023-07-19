@@ -1,0 +1,104 @@
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+  
+  .container-aboutus{
+   background: url('../assets/aboutus_cover.jpeg') center center/cover no-repeat;
+    /*background: url("../assets/aboutus_cover.jpeg") top;*/
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+  
+  .container-aboutus > h1 {
+    color: #fff;
+    font-size: 100px;
+    margin-top: 5vh;
+  }
+ 
+  .container-aboutus-text{
+    text-align: center;
+  }
+
+  @media screen and (max-width: 960px) {
+    .container-aboutus-text{
+        
+
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container-aboutus-text {
+
+        text-align: center;
+    }
+  }
+  .container-aboutus{
+    background: url('../assets/kurse_cover.jpeg') center center/cover no-repeat;
+     /*background: url("../assets/aboutus_cover.jpeg") top;*/
+     height: 30vh;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+     object-fit: contain;
+   }
+   
+   .container-aboutus > h1 {
+     color: #fff;
+     font-size: 100px;
+     margin-top: 5vh;
+   }
+   
+  
+  .container-aboutus > p {
+    color: #fff;
+    font-size: 32px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  
+
+  
+  .fa-play-circle {
+    margin-left: 4px;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .container-aboutus > h1 {
+      font-size: 70px;
+      margin-top: 5vh;
+
+      text-align: center;
+
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container-aboutus > h1 {
+      font-size: 50px;
+      margin-top: 5vh;
+
+   
+        text-align: center;
+    }
+  
+    .container-aboutus > p {
+      font-size: 30px;
+      text-align: center;
+
+    }
+  
+  }
+  
